@@ -19,11 +19,15 @@ const router = createRouter({
       name: 'Lista de compra',
       component: () => import('../views/ListaComprasView.vue')
     },
-    ,
     {
       path: '/listaRefatorada',
       name: 'Lista de compra Refatorada',
       component: () => import('../views/ListaComprasRefatoradaView.vue')
+    },
+    {
+      path: '/testeAxios',
+      nome: '/Teste AXIOS',
+      component:()=>import('../views/TesteAxiosView.vue')
     }
   ]
 })
