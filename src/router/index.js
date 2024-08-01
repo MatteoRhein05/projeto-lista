@@ -18,6 +18,12 @@ const router = createRouter({
       path: '/lista',
       name: 'Lista de compra',
       component: () => import('../views/ListaComprasView.vue')
+    },
+    ,
+    {
+      path: '/listaRefatorada',
+      name: 'Lista de compra Refatorada',
+      component: () => import('../views/ListaComprasRefatoradaView.vue')
     }
   ]
 })
